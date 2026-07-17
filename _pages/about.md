@@ -1,56 +1,89 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "# Aisyah Fitri Hidayati"
+excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+---
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## About Me
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+An Information Systems graduate from Telkom University Purwokerto with a strong interest in Business Process Management, IT Governance, Digital Transformation, and Business Operations. Experienced in business planning, operational reporting, public relations, and cross-functional coordination across government and manufacturing sectors. Skilled in data analysis, process improvement, documentation management, and business support operations. Passionate about leveraging technology and business strategies to optimize organizational performance and drive sustainable growth.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## My Work and Professional Experience
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+Throughout my academic and professional journey, I have developed expertise in business operations, process improvement, and organizational coordination. My experiences have strengthened my ability to bridge business needs with technology-driven solutions.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**Business Planning and Operations Management**
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Currently working as a Business Planning Staff in the footwear manufacturing industry, where I manage production planning and logistics coordination using enterprise systems such as Infornexus, APL Logistics, and Yusen Logistics. My responsibilities include purchase order management, supplier coordination, barcode generation, data verification, and supporting operational efficiency across multiple departments.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Website Analysis and User Experience Improvement**
 
-**Markdown generator**
+During my internship at the Communication and Informatics Office (Dinkominfo Banyumas), I analyzed government website usability, identified navigation and interface issues, and redesigned website layouts using Figma. This experience enhanced my understanding of user-centered design, information architecture, and digital service improvement.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**Public Relations and Government Administration**
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+As a Public Relations Intern at DPRD Tegal, I assisted in commission meetings, prepared reports and administrative documents, managed public communication materials, and supported information dissemination activities. This role strengthened my communication, documentation, and stakeholder engagement skills.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+**Research and Technology Development**
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Through my involvement in the Research and Technology Division of the Student Executive Board (BEM), I participated in research activities, technology implementation programs, and interdisciplinary collaborations. These experiences developed my analytical thinking, project management, and organizational leadership capabilities.
+
+**Future Exploration**
+
+As I continue my professional journey, I am interested in exploring Business Analysis, IT Governance, Enterprise Architecture, Project Management, and Digital Transformation initiatives. I am motivated to contribute to organizations by integrating business strategy, process optimization, and technology solutions to improve operational performance and decision-making.
+
+## Professional Highlights
+
+### Business Planning and Supply Chain Operations
+
+Managed and coordinated production planning activities, supplier communications, logistics processes, and purchase order documentation. Supported smooth operational workflows through accurate data management and cross-department collaboration.
+
+### Government Website Evaluation and Redesign
+
+Conducted website analysis and redesign initiatives for public sector digital services. Focused on improving user experience, navigation flow, visual consistency, and accessibility through Figma-based prototyping and stakeholder feedback.
+
+### Public Relations and Documentation Management
+
+Supported government communication activities through report preparation, meeting documentation, public information management, and audience engagement initiatives.
+
+### Research and Organizational Development
+
+Participated in research, technology implementation, and educational programs through student organizations and community initiatives, contributing to project execution, documentation, and knowledge dissemination.
+
+## Skills and Expertise
+
+### Business & Operations
+
+- Business Planning
+- Operational Reporting
+- Supply Chain Coordination
+- Process Improvement
+- Documentation Management
+- Data Analysis
+
+### Technology & Systems
+
+- Microsoft Office Suite
+- Figma
+- Bizagi Modeler
+- Draw.io
+- Sparx Systems
+- Infornexus
+- APL Logistics
+- Yusen Logistics
+
+### Professional Skills
+
+- Communication
+- Leadership
+- Teamwork
+- Problem Solving
+- Time Management
+- Critical Thinking
+- Adaptability
